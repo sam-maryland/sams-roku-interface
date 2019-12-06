@@ -1,1 +1,2 @@
-.pyc
+# Files to ignore when committing to Github
+*.pyc
