@@ -26,7 +26,7 @@ def launch_app():
   app_name = raw_input(Colors.GREEN + '\nEnter the name of the app you wish to launch: ' + Colors.END)
   for app in roku.apps:
     if app_name.lower() in app.name.lower():
-      print("\nLaunching " + app.name)
+      print(Colors.GREEN + "\nLaunching " + app.name + "..." + Colors.END)
       roku[app.id].launch()
       main_menu()
   print(Colors.RED + "\nSorry, we couldn't find that app. Please try again." + Colors.END)
