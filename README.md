@@ -8,6 +8,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
+First, you need to set up your workstation to communicate with your Roku device. Find the IP Address for your Roku device by navigating to Settings > Network > About. Make a note of your IP.
+
+Next, export your IP address as an environment variable by running this command:
+
+```
+export ROKU_IP_ADDRESS='YOUR IP ADDRESS HERE'
+```
+
 The requirements.txt file is located in the 'sams-roku-interface' subdirectory.
 
 ```
