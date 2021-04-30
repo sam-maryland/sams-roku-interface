@@ -104,4 +104,4 @@ pyobjc-framework-WebKit==5.3
 requests==2.22.0
 roku==3.2
 six==1.13.0
-urllib3==1.25.7
+urllib3==1.25.8
